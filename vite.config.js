@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'), // ✅ Add this line
+    base: '/enis-portfolio/',
     },
   },
-  base: "/enis-portfolio",
-})
+});
